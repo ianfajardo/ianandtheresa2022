@@ -1,0 +1,96 @@
+@import "fonts";
+
+@import "elevation";
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background: #fef9f0;
+}
+
+.it-nav-title {
+  font-family: MoonTime, "MoonTime";
+}
+
+.it-container {
+  background: url("/bg.png") center center no-repeat;
+  background-size: cover;
+  padding: 10rem 0;
+  position: relative;
+}
+
+.it-section {
+  padding: 5rem 0;
+  &.sm {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+.it-title {
+  font-family: MoonTime, "MoonTime";
+  font-size: 10rem;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.it-lead {
+  font-family: "Lora";
+  letter-spacing: 2px;
+  color: $dustyblue;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: -10px;
+  margin-bottom: 1rem;
+}
+
+.it-date-box {
+  color: $lightgray;
+  text-align: left;
+  max-width: 400px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 5rem auto;
+
+  text-transform: uppercase;
+
+  .btn {
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+}
+
+.it-date,
+.it-location {
+  letter-spacing: 10px;
+}
+
+.it-date-label {
+  font-family: "MoonTime";
+  letter-spacing: 0;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  font-size: 5rem;
+  color: $dustyblue;
+  line-height: 1;
+}
+
+.it-location {
+  font-weight: 800;
+  font-size: 12px;
+  margin-top: 6px;
+  letter-spacing: 5px;
+}
+
+.navbar-container {
+  .navbar {
+    .nav-link {
+      color: map-get($theme-colors, "primary");
+      color: $lightgray;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+  }
+}
