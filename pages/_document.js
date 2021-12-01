@@ -9,9 +9,11 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        
         <Head>
-          <link rel="stylesheet" href="/Fonts/fonts.css" />
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/ianfajardo/ianandtheresa2022/public/Fonts/fonts.css"
+          />
         </Head>
         <body>
           <Main />
