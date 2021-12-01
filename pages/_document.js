@@ -10,9 +10,12 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <link rel="preload" href="/Fonts/MoonTime-Regular.woff" as="font" />
+          <link rel="preload" href="/Fonts/MoonTime-Regular.woff2" as="font" />
+
           <link
             rel="stylesheet"
-            href="https://cdn.jsdelivr.net/gh/ianfajardo/ianandtheresa2022/public/Fonts/fonts.css"
+            href="https://cdn.jsdelivr.net/gh/ianfajardo/ianandtheresa2022@latest/public/Fonts/fonts.css"
           />
         </Head>
         <body>
