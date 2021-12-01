@@ -19,18 +19,20 @@ export default function Navigation(props) {
     <div className="navbar-container">
       <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <h1 className="it-nav-title text-primary animate__animated animate__fadeInLeft">
               Theresa + Ian
             </h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav ">
-            <Nav className="ms-auto animate__animated animate__fadeInRight">
-              <Nav.Link href="#features">RSVP</Nav.Link>
-              <Nav.Link href="#pricing">Details</Nav.Link>
-              <Nav.Link href="#pricing">Accomadation</Nav.Link>
-              <Nav.Link href="#pricing">Photos</Nav.Link>
+            <Nav className="mx-auto">
+              <Nav.Link href="/details">Details</Nav.Link>
+              <Nav.Link href="/accommodations">Accommodations</Nav.Link>
+              <Nav.Link href="/photos">Photos</Nav.Link>
+            </Nav>
+            <Nav className="ms-auto">
+              <Button variant="primary" href="/rsvp">RSVP</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>

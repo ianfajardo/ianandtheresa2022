@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import Navigation from "../components/navigation";
 
-export default function Home() {
+export default function Details() {
   return (
     <div>
       <Head>
@@ -14,17 +14,13 @@ export default function Home() {
 
       <Navigation />
 
-      <div className="it-container">
+      <div className="it-container details-bg">
         <div className="container text-center">
           <div className="row">
             <div className="col-lg-12">
-              <h1 className="it-title text-primary animate__animated animate__fadeInDown">
-                Theresa + Ian
+              <h1 className="it-title text-white text-primary animate__animated animate__fadeInDown">
+                Details
               </h1>
-              <p className="lead it-lead animate__animated animate__fadeInUp">
-                are getting married!
-              </p>
-              <a href="/rsvp" className="btn btn-primary">RSVP</a>
             </div>
           </div>
         </div>

@@ -1,10 +1,11 @@
 $font-family-sans-serif: "Inter", arial, sans-serif;
 
+$primary: #a1b5a7;
 $lightgray: #b6b6b6;
 $dustyblue: #8796a5;
 
 $theme-colors: (
-  "primary": #a1b5a7,
+  "primary": $primary,
   "secondary": $dustyblue,
   "danger": #ff4136,
   "dark": #373636,
