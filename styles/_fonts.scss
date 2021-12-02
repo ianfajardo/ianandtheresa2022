@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "MoonTime";
+  font-weight: normal;
+  font-style: normal;
+  //font-display: optional;
+  src: url("/Fonts/MoonTime-Regular.woff2") format("woff2"),
+    url("/Fonts/MoonTime-Regular.woff") format("woff");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap");

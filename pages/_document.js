@@ -24,12 +24,6 @@ class MyDocument extends Document {
             type="font/woff2"
             crossOrigin
           />
-
-          <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/gh/ianfajardo/ianandtheresa2022@latest/public/Fonts/fonts.css"
-            crossOrigin
-          />
         </Head>
         <body>
           <Main />

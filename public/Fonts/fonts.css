@@ -2,7 +2,7 @@
   font-family: "MoonTime";
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
   src: url("https://ianandtheresa2022.com/Fonts/MoonTime-Regular.woff2") format("woff2"),
     url("https://ianandtheresa2022.com/Fonts/MoonTime-Regular.woff") format("woff");
 }
