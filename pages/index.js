@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import Navigation from "../components/navigation";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -32,6 +33,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <Footer style={{marginTop: "0"}}/>
     </div>
   );
 }

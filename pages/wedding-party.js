@@ -4,7 +4,7 @@ import Image from "next/image";
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
 
-export default function Details() {
+export default function WeddingParty() {
   return (
     <div>
       <Head>
@@ -15,12 +15,12 @@ export default function Details() {
 
       <Navigation />
 
-      <div className="page-bg details animate__animated animate__fadeIn">
+      <div className="page-bg wedding animate__animated animate__fadeIn">
         <div className="container text-center">
           <div className="row align-items-center">
             <div className="col-lg-12">
               <h1 className="it-title text-white text-primary ">
-                Details
+                Wedding Party
               </h1>
             </div>
           </div>
@@ -31,33 +31,47 @@ export default function Details() {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="it-date-box">
-              <div className="it-date-label">Ceremony</div>
-              <div className="it-date">Holy Spirit Catholic Church</div>
+              <div className="it-date-label">Bridesmaids</div>
               <div className="it-location">
-                1396 Lynnhaven Pkwy, Virginia Beach, VA 23453
+                Helena Ellorin
               </div>
-
-              <div>
-                <a href="#" className="btn btn-secondary me-2 mb-2 mt-3">
-                  RSVP
-                </a>
+              <div className="it-location">
+                Angelie Ellorin
+              </div>
+              <div className="it-location">
+                Joanne Fitts
+              </div>
+              <div className="it-location">
+                Michelle Tran
+              </div>
+              <div className="it-location">
+                Danielle Salcedo
+              </div>
+              <div className="it-location">
+                Aralee Fajardo
               </div>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="it-date-box">
-              <div className="it-date-label">Receptioin</div>
-              <div className="it-date">
-                Half Moone Cruise and Celebration Center
+              <div className="it-date-label">Groosmen</div>
+              <div className="it-location">
+                Mark Salcedo
               </div>
               <div className="it-location">
-                1 Waterside Dr, Norfolk, VA 23510{" "}
+                Andrew Huynh
               </div>
-
-              <div>
-                <a href="#" className="btn btn-secondary me-2 mb-2 mt-3">
-                  RSVP
-                </a>
+              <div className="it-location">
+                Benjamin Amarillo
+              </div>
+              <div className="it-location">
+                Joe Borja
+              </div>
+              <div className="it-location">
+                Matthew Miranda
+              </div>
+              <div className="it-location">
+                James Sagyno
               </div>
             </div>
           </div>

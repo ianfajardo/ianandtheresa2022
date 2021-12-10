@@ -4,7 +4,7 @@ import Image from "next/image";
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
 
-export default function Photos() {
+export default function Rsvp() {
   return (
     <div>
       <Head>
@@ -20,7 +20,7 @@ export default function Photos() {
           <div className="row align-items-center">
             <div className="col-lg-12">
               <h1 className="it-title text-primary ">
-                Photos
+                rsvp
               </h1>
             </div>
           </div>

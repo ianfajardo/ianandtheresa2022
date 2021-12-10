@@ -15,14 +15,14 @@ class MyDocument extends Document {
             href="/Fonts/MoonTime-Regular.woff"
             as="font"
             type="font/woff"
-            crossOrigin="true"
+            crossOrigin=""
           />
           <link
             rel="preload"
             href="/Fonts/MoonTime-Regular.woff2"
             as="font"
             type="font/woff2"
-            crossOrigin="true"
+            crossOrigin=""
           />
         </Head>
         <body>

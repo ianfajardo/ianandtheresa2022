@@ -19,6 +19,11 @@ export default function Navigation(props) {
     <div className="navbar-container">
       <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
         <Container>
+        <Navbar.Brand href="/">
+            <h1 className="it-nav-title text-white mb-0">
+              Theresa + Ian
+            </h1>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav ">
             <Nav className="mx-auto">
@@ -29,7 +34,7 @@ export default function Navigation(props) {
               <Nav.Link href="/photos">Photos</Nav.Link>
             </Nav>
             <div className="d-flex">
-              <Button variant="secondary" href="/rsvp">
+              <Button variant="primarydark" href="/rsvp">
                 RSVP
               </Button>
             </div>

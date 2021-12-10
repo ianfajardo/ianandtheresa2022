@@ -9,6 +9,12 @@ body {
   background: $offwhite;
 }
 
+h1,
+h2,
+h3 {
+  color: $primary;
+}
+
 .btn {
   color: #ffffff;
   font-size: 14px;
@@ -35,9 +41,33 @@ body {
   z-index: 4;
 }
 
-.details-bg {
-  background: url("/halfmoone.png") center center no-repeat;
+.page-bg {
+  background-size: cover;
+  height: 500px;
+  max-width: 1290px;
+  width: 100%;
+  margin: 2rem auto;
   position: relative;
+
+  &.details {
+    background: url("/jumbo2.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  &.accomodations {
+    background: url("/jumbo1.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  &.wedding {
+    background: url("/jumbo4.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  &.thingstodo {
+    background: url("/norfolk.jpg") center center no-repeat;
+    background-size: cover;
+  }
 
   .container {
     position: relative;
@@ -53,7 +83,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 3;
-    opacity: 0.4;
+    opacity: 0.3;
   }
 }
 
@@ -78,9 +108,15 @@ body {
   min-height: 700px;
   overflow: hidden;
 
-  .container-fluid, .row {
+  .container-fluid,
+  .row {
     height: 100%;
   }
+}
+
+.container,
+.row {
+  height: 100%;
 }
 
 .it-half-jumbo {
@@ -101,6 +137,32 @@ body {
   margin-bottom: 1rem;
 }
 
+.todo-box {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  .it-label {
+    margin-bottom: 0.5rem;
+  }
+  .it-location {
+    letter-spacing: normal;
+    color: $lightgray;
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.875rem;
+    text-transform: none;
+  }
+}
+
+.it-label {
+  color: $lightgray;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1rem auto;
+  text-transform: uppercase;
+}
+
 .it-date-box {
   color: $lightgray;
   text-align: center;
@@ -108,13 +170,24 @@ body {
   font-size: 20px;
   font-weight: 400;
   margin: 2rem auto;
-
   text-transform: uppercase;
+
+  &.full {
+    color: $white;
+    background: $secondary;
+    max-width: 100%;
+    padding: 30px;
+  }
 
   .btn {
     color: #ffffff;
     font-size: 14px;
     letter-spacing: 2px;
+  }
+
+  p {
+    font-size: 0.875rem;
+    text-transform: none;
   }
 }
 
@@ -137,6 +210,7 @@ body {
   font-weight: 800;
   font-size: 12px;
   margin-top: 6px;
+  margin-bottom: 10px;
   letter-spacing: 5px;
 }
 
@@ -154,6 +228,36 @@ body {
     color: #ffffff;
     font-size: 14px;
     letter-spacing: 2px;
+  }
+}
+
+.star {
+  fill: $primary;
+  height: auto;
+  max-width: 1.275rem;
+  vertical-align: top;
+  line-height: 1;
+}
+
+.footer {
+  background: $primarydark;
+  color: $white;
+  margin-top: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 1269.999px) {
+  .page-bg {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 990.999px) {
+  .it-jumbo-full,
+  .it-half-jumbo {
+    height: auto;
+    min-height: 700px;
   }
 }
 
