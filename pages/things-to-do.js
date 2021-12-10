@@ -105,7 +105,7 @@ export default function ThingsToDo() {
               </div>
               <p>
                 In the Railroad District, this three-story brewery has some
-                tasty beer and declious food. Great place to grab a drink!
+                tasty beer and delicious food. Great place to grab a drink!
               </p>
             </div>
           </div>

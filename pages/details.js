@@ -46,7 +46,7 @@ export default function Details() {
           </div>
           <div className="col-lg-6">
             <div className="it-date-box">
-              <div className="it-date-label">Receptioin</div>
+              <div className="it-date-label">Reception</div>
               <div className="it-date">
                 Half Moone Cruise and Celebration Center
               </div>

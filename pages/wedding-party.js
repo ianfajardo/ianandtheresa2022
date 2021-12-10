@@ -36,7 +36,7 @@ export default function WeddingParty() {
                 Helena Ellorin
               </div>
               <div className="it-location">
-                Angelie Ellorin
+                Angelique Ellorin
               </div>
               <div className="it-location">
                 Joanne Fitts
@@ -71,7 +71,7 @@ export default function WeddingParty() {
                 Matthew Miranda
               </div>
               <div className="it-location">
-                James Sagyno
+                James Sagayno
               </div>
             </div>
           </div>

@@ -38,9 +38,9 @@ export default function Details() {
               <p>
                 For your convenience, a block of rooms has been reserved at the
                 Sheraton Norfolk Waterside Hotel in Norfolk, VA. When calling to
-                make your reservation, please mention the Riel-Fajardo wedding
-                in order to receive a discounted rate. Please call 757-622-6664
-                or use this link to make your reservation.
+                make your reservation, please mention the Riel-Fajardo wedding.
+                Please call 757-622-6664 or use this link to make your
+                reservation before July 5th, 2022.
               </p>
               <a className="btn btn-primary mt-2" href="#">
                 Book Here
