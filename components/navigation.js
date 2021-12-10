@@ -17,23 +17,22 @@ library.add(fab, faTwitter, faInstagram);
 export default function Navigation(props) {
   return (
     <div className="navbar-container">
-      <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
+      <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="/">
-            <h1 className="it-nav-title text-primary animate__animated animate__fadeInLeft">
-              Theresa + Ian
-            </h1>
-          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav ">
             <Nav className="mx-auto">
               <Nav.Link href="/details">Details</Nav.Link>
+              <Nav.Link href="/wedding-party">Wedding Party</Nav.Link>
               <Nav.Link href="/accommodations">Accommodations</Nav.Link>
+              <Nav.Link href="/things-to-do">Things to Do</Nav.Link>
               <Nav.Link href="/photos">Photos</Nav.Link>
             </Nav>
-            <Nav className="ms-auto">
-              <Button variant="primary" href="/rsvp">RSVP</Button>
-            </Nav>
+            <div className="d-flex">
+              <Button variant="secondary" href="/rsvp">
+                RSVP
+              </Button>
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>

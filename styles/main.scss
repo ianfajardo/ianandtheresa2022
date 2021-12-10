@@ -19,11 +19,20 @@ body {
   font-family: MoonTime, "MoonTime";
 }
 
-.it-container {
-  background: url("/bg.png") center center no-repeat;
+.it-jumbo {
+  background: url("/jumbo2.jpg") center center no-repeat;
   background-size: cover;
-  padding: 10rem 0;
+  min-height: 600px;
   position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.it-container {
+  //background: url("/bg.png") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 4;
 }
 
 .details-bg {
@@ -60,7 +69,26 @@ body {
   font-family: MoonTime, "MoonTime";
   font-size: 10rem;
   line-height: 1;
+  margin-top: 1.5rem;
   margin-bottom: 0;
+}
+
+.it-jumbo-full {
+  height: 100vh;
+  min-height: 700px;
+  overflow: hidden;
+
+  .container-fluid, .row {
+    height: 100%;
+  }
+}
+
+.it-half-jumbo {
+  background: url("/jumbo3.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  min-height: 700px;
 }
 
 .it-lead {
@@ -68,18 +96,18 @@ body {
   letter-spacing: 2px;
   color: $dustyblue;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 2rem;
   margin-top: -10px;
   margin-bottom: 1rem;
 }
 
 .it-date-box {
   color: $lightgray;
-  text-align: left;
+  text-align: center;
   max-width: 400px;
   font-size: 20px;
   font-weight: 400;
-  margin: 5rem auto;
+  margin: 2rem auto;
 
   text-transform: uppercase;
 
@@ -116,7 +144,7 @@ body {
   .navbar {
     .nav-link {
       color: map-get($theme-colors, "primary");
-      color: $lightgray;
+      color: $white;
       letter-spacing: 2px;
       text-transform: uppercase;
       font-size: 14px;

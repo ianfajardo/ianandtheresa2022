@@ -12,44 +12,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navigation />
-
-      <div className="it-container">
-        <div className="container text-center">
-          <div className="row">
-            <div className="col-lg-12">
-              <h1 className="it-title text-primary animate__animated animate__fadeInDown">
+      <div className="it-jumbo-full">
+        <Navigation />
+        <div className="">
+          <div className="row no-gutters align-items-center">
+            <div className="col-lg-6 text-center  animate__animated animate__fadeIn">
+              <h1 className="it-title text-primary">
                 Theresa + Ian
               </h1>
-              <p className="lead it-lead animate__animated animate__fadeInUp">
-                are getting married!
-              </p>
-              <a href="/rsvp" className="btn btn-primary">RSVP</a>
+              <h2 className="it-lead">are getting married!</h2>
+              <div className="it-date-box">
+                <div className="it-date">August 5, 2022</div>
+                <div className="it-location">Virginia Beach, VA</div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="bg-white">
-        <div className="it-section sm animate__animated animate__fadeInUp">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-6">
-                <img src="/3.jpg" alt="" className="img-fluid" />
-              </div>
-              <div className="col-lg-6">
-                <div className="it-date-box">
-                  <div className="it-date-label">The Date</div>
-                  <div className="it-date">August 5th, 2022</div>
-                  <div className="it-location">Virginia Beach, VA</div>
-
-                  <div>
-                    <a href="#" className="btn btn-secondary me-2 mb-2 mt-3">
-                      RSVP
-                    </a>
-                  </div>
-                </div>
-              </div>
+            <div className="col-lg-6">
+              <div className="it-half-jumbo animate__animated animate__fadeIn"></div>
             </div>
           </div>
         </div>
