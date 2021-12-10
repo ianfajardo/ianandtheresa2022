@@ -15,7 +15,6 @@ export default function Rsvp() {
 
       <Navigation />
 
-      {/*
       <iframe
         style={{
           display: "block",
@@ -26,22 +25,6 @@ export default function Rsvp() {
         }}
         src="https://withjoy.com/ianandtheresa2022/rsvp"
       ></iframe>
-    */}
-
-      <div className="container" style={{ height: "600px" }}>
-        <div className="animate__animated animate__fadeIn">
-          <div className="row align-items-center text-center">
-            <div className="col-lg-12">
-              <h1 className="it-title text-primary ">rsvp</h1>
-            </div>
-          </div>
-        </div>
-        <div className="row align-items-center" >
-          <div className="col-lg-12 text-center">
-            <div className="it-lead">Coming soon!</div>
-          </div>
-        </div>
-      </div>
 
       <Footer />
     </div>
