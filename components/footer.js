@@ -16,7 +16,7 @@ library.add(fab, faTwitter, faInstagram);
 
 export default function Footer(props) {
   return (
-    <footer class="footer" style={props.style}>
+    <footer className="footer" style={props.style}>
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
@@ -26,12 +26,16 @@ export default function Footer(props) {
             <div className="py-1">
               <span className="pe-3">
                 Photos by{" "}
-                <a target="_blank" href="http://katienesbittphotography.com/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="http://katienesbittphotography.com/"
+                >
                   Katie Nesbitt Photography
                 </a>
               </span>
               Website by{" "}
-              <a target="_blank" href="https://ianfajardo.com">
+              <a target="_blank" rel="noreferrer" href="https://ianfajardo.com">
                 Ian Fajardo
               </a>
             </div>

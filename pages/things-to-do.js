@@ -81,7 +81,7 @@ export default function ThingsToDo() {
                 742 W 21st St, Norfolk, VA 23517
               </div>
               <p>
-                Theresa's favorite ramen place! The ramen is delicious and they
+                Theresa&apos;s favorite ramen place! The ramen is delicious and they
                 have some great filipino fusion apps too.
               </p>
             </div>
@@ -92,7 +92,7 @@ export default function ThingsToDo() {
                 100 E Main St, Norfolk, VA 23510
               </div>
               <p>
-                Norfolk's only rooftop beer garden. Right across the street from
+                Norfolk&apos;s only rooftop beer garden. Right across the street from
                 our wedding reception location, a great place to grab a drink
                 for the afterparty!
               </p>
