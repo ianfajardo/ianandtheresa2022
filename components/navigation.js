@@ -21,7 +21,7 @@ export default function Navigation(props) {
         <Container>
         <Navbar.Brand href="/">
             <h1 className="it-nav-title text-white mb-0">
-              Theresa + Ian
+              theresa + ian
             </h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

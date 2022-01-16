@@ -19,12 +19,11 @@ export default function Home() {
           <div className="row no-gutters align-items-center">
             <div className="col-lg-6 text-center  animate__animated animate__fadeIn">
               <h1 className="it-title text-primary">
-                Theresa + Ian
+                theresa + ian
               </h1>
-              <h2 className="it-lead">are getting married!</h2>
-              <div className="it-date-box">
-                <div className="it-date">August 5, 2022</div>
-                <div className="it-location">Virginia Beach, VA</div>
+              <div className="it-date-box" style={{marginTop: "1rem"}}>
+                <div className="it-date">08.05.2022</div>
+                <div className="it-location" style={{marginTop: "1.5rem"}}>Virginia Beach, VA</div>
               </div>
             </div>
             <div className="col-lg-6">

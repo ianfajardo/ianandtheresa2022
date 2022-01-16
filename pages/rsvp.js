@@ -37,8 +37,8 @@ export default function Rsvp() {
           </div>
         </div>
         <div className="row align-items-center" >
-          <div className="col-lg-12 text-center">
-            <div className="it-lead">Coming soon!</div>
+          <div className="offset-lg-3 col-lg-6 text-center">
+            <div className="it-lead">Coming soon! <br/>Please check back when you recieve your invitation.</div>
           </div>
         </div>
       </div>
