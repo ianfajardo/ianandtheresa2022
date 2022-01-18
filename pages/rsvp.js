@@ -29,17 +29,19 @@ export default function Rsvp() {
     */}
 
       <div className="container" style={{ height: "600px" }}>
-        <div className="animate__animated animate__fadeIn">
+        <div className="animate__animated animate__fadeInRight">
           <div className="row align-items-center text-center">
             <div className="col-lg-12">
               <h1 className="it-title text-primary ">rsvp</h1>
+              <div className="it-date-box mt-5" style={{fontSize: "16px;"}}>
+                Coming soon! <br />
+                Please check back when you recieve your invitation.
+              </div>
             </div>
           </div>
         </div>
-        <div className="row align-items-center" >
-          <div className="offset-lg-3 col-lg-6 text-center">
-            <div className="it-lead">Coming soon! <br/>Please check back when you recieve your invitation.</div>
-          </div>
+        <div className="row align-items-center">
+          <div className="offset-lg-3 col-lg-6 text-center"></div>
         </div>
       </div>
 

@@ -15,7 +15,7 @@ export default function Details() {
 
       <Navigation />
 
-      <div className="page-bg details animate__animated animate__fadeIn">
+      <div className="page-bg details animate__animated animate__fadeInRight">
         <div className="container text-center">
           <div className="row align-items-center">
             <div className="col-lg-12">

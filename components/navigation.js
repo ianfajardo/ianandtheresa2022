@@ -16,7 +16,7 @@ library.add(fab, faTwitter, faInstagram);
 
 export default function Navigation(props) {
   return (
-    <div className="navbar-container">
+    <div className="navbar-container accomodations animate__animated animate__fadeInDown">
       <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
         <Container>
         <Navbar.Brand href="/">
@@ -31,7 +31,6 @@ export default function Navigation(props) {
               <Nav.Link href="/wedding-party">Wedding Party</Nav.Link>
               <Nav.Link href="/accommodations">Accommodations</Nav.Link>
               <Nav.Link href="/things-to-do">Things to Do</Nav.Link>
-              <Nav.Link href="/photos">Photos</Nav.Link>
             </Nav>
             <div className="d-flex">
               <Button variant="primarydark" href="/rsvp">

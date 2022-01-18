@@ -260,18 +260,26 @@ h3 {
   }
 }
 
+@media screen and (max-width: 1023.999px) {
+  .it-title {
+    font-size: 7rem;
+  }
+}
+
 @media screen and (max-width: 990.999px) {
   .it-jumbo-full,
   .it-half-jumbo {
     height: auto;
     min-height: 700px;
   }
+
+  .it-title {
+    font-size: 6rem;
+  }
 }
 
 @media screen and (max-width: 767.999px) {
-  .it-title {
-    font-size: 5.5rem;
-  }
+  
   .it-lead {
     font-size: 23px;
   }

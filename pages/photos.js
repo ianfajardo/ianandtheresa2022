@@ -30,7 +30,7 @@ export default function Photos() {
       <div className="container" style={{height: "400px"}}>
         <div className="row align-items-center">
           <div className="col-lg-12 text-center">
-            <div className="it-lead">Coming soon!</div>
+            
           </div>
         </div>
       </div>

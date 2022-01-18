@@ -17,7 +17,7 @@ export default function Home() {
         <Navigation />
         <div className="">
           <div className="row no-gutters align-items-center">
-            <div className="col-lg-6 text-center  animate__animated animate__fadeIn">
+            <div className="col-lg-6 text-center  animate__animated animate__fadeInLeft">
               <h1 className="it-title text-primary">
                 theresa + ian
               </h1>
@@ -27,7 +27,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="it-half-jumbo animate__animated animate__fadeIn"></div>
+              <div className="it-half-jumbo animate__animated animate__fadeInRight"></div>
             </div>
           </div>
         </div>
