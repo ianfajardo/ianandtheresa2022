@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
+import Star from "../components/star";
 
 export default function Details() {
   return (
@@ -30,7 +31,10 @@ export default function Details() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <div className="it-date-box full mb-0">
+            <div className="it-date-box full mb-0" style={{ paddingTop: "0" }}>
+              <div class="it-preferred-hotel">
+                <Star /> Preferred Hotel
+              </div>
               <div className="it-date">Sheraton Norfolk Waterside Hotel</div>
               <div className="it-hotel-location">
                 1396 Lynnhaven Pkwy, Virginia Beach, VA 23453
@@ -42,7 +46,11 @@ export default function Details() {
                 Please call 757-622-6664 or use this link to make your
                 reservation before July 5th, 2022.
               </p>
-              <a target="_blank" className="btn btn-primary mt-2" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1639522353084&key=GRP&app=resvlink">
+              <a
+                target="_blank"
+                className="btn btn-primary mt-2"
+                href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1639522353084&key=GRP&app=resvlink"
+              >
                 Book Here
               </a>
             </div>
@@ -56,7 +64,11 @@ export default function Details() {
               <div className="it-hotel-location">
                 100 E Main St, Norfolk, VA 23510
               </div>
-              <a target="_blank" className="btn btn-primary mt-3" href="https://www.themainnorfolk.com/">
+              <a
+                target="_blank"
+                className="btn btn-primary mt-3"
+                href="https://www.themainnorfolk.com/"
+              >
                 Book Here
               </a>
             </div>
@@ -65,7 +77,11 @@ export default function Details() {
               <div className="it-hotel-location">
                 235 E Main St, Norfolk, VA 23510
               </div>
-              <a target="_blank" className="btn btn-primary mt-3" href="https://www.marriott.com/hotels/travel/orfws-norfolk-waterside-marriott/">
+              <a
+                target="_blank"
+                className="btn btn-primary mt-3"
+                href="https://www.marriott.com/hotels/travel/orfws-norfolk-waterside-marriott/"
+              >
                 Book Here
               </a>
             </div>
@@ -76,8 +92,14 @@ export default function Details() {
               <div className="it-hotel-location">
                 201 Granby St, Norfolk, VA 23510
               </div>
-              <p style={{marginBottom: "0"}}>Enter code <strong>W14</strong> for 10% off on checkout </p>
-              <a target="_blank" className="btn btn-primary mt-3" href="http://www.glasslighthotel.com/">
+              <p style={{ marginBottom: "0" }}>
+                Enter code <strong>W14</strong> for 10% off on checkout{" "}
+              </p>
+              <a
+                target="_blank"
+                className="btn btn-primary mt-3"
+                href="http://www.glasslighthotel.com/"
+              >
                 Book Here
               </a>
             </div>
