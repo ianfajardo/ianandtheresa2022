@@ -32,7 +32,7 @@ export default function Details() {
         <div className="row">
           <div className="col-lg-6">
             <div className="it-date-box full mb-0" style={{ paddingTop: "0" }}>
-              <div class="it-preferred-hotel">
+              <div className="it-preferred-hotel">
                 <Star /> Preferred Hotel
               </div>
               <div className="it-date">Sheraton Norfolk Waterside Hotel</div>
@@ -47,6 +47,7 @@ export default function Details() {
                 reservation before July 5th, 2022.
               </p>
               <a
+                rel="noreferrer"
                 target="_blank"
                 className="btn btn-primary mt-2"
                 href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1639522353084&key=GRP&app=resvlink"
@@ -65,6 +66,7 @@ export default function Details() {
                 100 E Main St, Norfolk, VA 23510
               </div>
               <a
+                rel="noreferrer"
                 target="_blank"
                 className="btn btn-primary mt-3"
                 href="https://www.themainnorfolk.com/"
@@ -78,6 +80,7 @@ export default function Details() {
                 235 E Main St, Norfolk, VA 23510
               </div>
               <a
+                rel="noreferrer"
                 target="_blank"
                 className="btn btn-primary mt-3"
                 href="https://www.marriott.com/hotels/travel/orfws-norfolk-waterside-marriott/"
@@ -96,6 +99,7 @@ export default function Details() {
                 Enter code <strong>W14</strong> for 10% off on checkout{" "}
               </p>
               <a
+                rel="noreferrer"
                 target="_blank"
                 className="btn btn-primary mt-3"
                 href="http://www.glasslighthotel.com/"
