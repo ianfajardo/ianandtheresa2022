@@ -80,7 +80,7 @@ export default function faqs() {
               </p>
               <div className="it-label">How many guests will be attending?</div>
               <p>
-                We have invited approximately 300 of our closest loved ones to
+                We have invited 250+ of our closest loved ones to
                 celebrate our big day.{" "}
               </p>
               <div className="it-label">
