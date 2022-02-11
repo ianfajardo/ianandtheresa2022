@@ -31,6 +31,7 @@ export default function Navigation(props) {
               <Nav.Link href="/wedding-party">Wedding Party</Nav.Link>
               <Nav.Link href="/accommodations">Accommodations</Nav.Link>
               <Nav.Link href="/things-to-do">Things to Do</Nav.Link>
+              <Nav.Link href="/faqs">FAQs</Nav.Link>
             </Nav>
             <div className="d-flex">
               <Button variant="primarydark" href="/rsvp">
