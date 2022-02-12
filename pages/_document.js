@@ -24,6 +24,7 @@ class MyDocument extends Document {
             type="font/woff2"
             crossOrigin=""
           />
+        
         </Head>
         <body>
           <Main />
