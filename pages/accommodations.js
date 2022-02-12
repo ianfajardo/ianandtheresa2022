@@ -37,7 +37,7 @@ export default function Details() {
               </div>
               <div className="it-date">Sheraton Norfolk Waterside Hotel</div>
               <div className="it-hotel-location">
-                1396 Lynnhaven Pkwy, Virginia Beach, VA 23453
+                777 Waterside Dr, Norfolk, VA 23510
               </div>
               <p>
                 For your convenience, a block of rooms has been reserved at the
