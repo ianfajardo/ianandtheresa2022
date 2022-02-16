@@ -32,8 +32,9 @@ export default function WeddingParty() {
           <div className="col-lg-6">
             <div className="it-date-box">
               <div className="it-date-label">Bridesmaids</div>
-              <div className="it-location">Helena Ellorin</div>
               <div className="it-location">Angelique Ellorin</div>
+              <div className="it-location">Helena Ellorin</div>
+
               <div className="it-location">Aralee Fajardo</div>
               <div className="it-location">Danielle Salcedo</div>
               <div className="it-location">Joanne Fitts</div>
@@ -43,11 +44,12 @@ export default function WeddingParty() {
           <div className="col-lg-6">
             <div className="it-date-box">
               <div className="it-date-label">Groosmen</div>
-              <div className="it-location">Mark Salcedo</div>
               <div className="it-location">Andrew Huynh</div>
+              <div className="it-location">Mark Salcedo</div>
+
               <div className="it-location">Benjamin Amarillo</div>
               <div className="it-location">James Sagayno</div>
-              <div className="it-location">Joe Borja</div>      
+              <div className="it-location">Joe Borja</div>
               <div className="it-location">Matthew Miranda</div>
             </div>
           </div>
