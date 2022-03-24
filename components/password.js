@@ -44,7 +44,10 @@ class Password extends Component {
       this.state.day == "5" &&
       this.state.year == "2022"
     ) {
-      console.log("correct date");
+      const cookies = new Cookies();
+      cookies.set("access", "yes", { path: "/" });
+      console.log(cookies.get("access"));
+
       window.location.href = "/home";
     } else {
       this.setState({ error: "Date is incorrect." });

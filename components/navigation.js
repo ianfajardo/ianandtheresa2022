@@ -7,6 +7,8 @@ import Button from "react-bootstrap/Button";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container";
 
+import Cookies from "universal-cookie";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -15,14 +17,19 @@ import { faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 library.add(fab, faTwitter, faInstagram);
 
 export default function Navigation(props) {
+  useEffect(() => {
+    const cookies = new Cookies();
+    if (cookies.get("access") != "yes") {
+      window.location.href = "/";
+    }
+  }, []);
+
   return (
     <div className="navbar-container accomodations animate__animated animate__fadeInDown">
       <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
         <Container>
-        <Navbar.Brand href="/">
-            <h1 className="it-nav-title text-white mb-0">
-              theresa + ian
-            </h1>
+          <Navbar.Brand href="/home">
+            <h1 className="it-nav-title text-white mb-0">theresa + ian</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav ">
