@@ -59,7 +59,7 @@ class Password extends Component {
             Enter our Wedding Date to Access our Site
           </div>
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 mb-2">
               <Form.Select
                 value={this.state.month}
                 onChange={this.handleMonth}
@@ -80,7 +80,7 @@ class Password extends Component {
                 <option value="12">12</option>
               </Form.Select>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 mb-2">
               <Form.Select
                 value={this.state.day}
                 onChange={this.handleDay}
@@ -120,7 +120,7 @@ class Password extends Component {
                 <option value="31">31</option>
               </Form.Select>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 mb-2">
               <Form.Select
                 value={this.state.year}
                 onChange={this.handleYear}
