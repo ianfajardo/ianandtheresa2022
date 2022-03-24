@@ -38,7 +38,7 @@ export default function Details() {
               </div>
 
               <div>
-                <a href="#" className="btn btn-secondary me-2 mb-2 mt-3">
+                <a href="/rsvp" className="btn btn-secondary me-2 mb-2 mt-3">
                   RSVP
                 </a>
               </div>
@@ -55,7 +55,7 @@ export default function Details() {
               </div>
 
               <div>
-                <a href="#" className="btn btn-secondary me-2 mb-2 mt-3">
+                <a href="/rsvp" className="btn btn-secondary me-2 mb-2 mt-3">
                   RSVP
                 </a>
               </div>
