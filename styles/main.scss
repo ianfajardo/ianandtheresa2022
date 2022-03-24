@@ -268,6 +268,23 @@ h3 {
   padding-bottom: 3rem;
 }
 
+.password-box {
+  background: none;
+  border: none;
+  max-width: 550px;
+  margin: 2rem auto;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  select {
+    color: #929292;
+    text-transform: uppercase;
+    background-color: transparent;
+    //border: none;
+  }
+}
+
 @media screen and (max-width: 1289.999px) {
   .page-bg {
     margin-top: 0;
