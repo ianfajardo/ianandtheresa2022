@@ -54,6 +54,13 @@ class Password extends Component {
     }
   }
 
+  componentDidMount() {
+    const cookies = new Cookies();
+    if (cookies.get("access") == "yes") {
+      window.location.href = "/home";
+    }
+  }
+
   render() {
     return (
       <Card className="password-box it-date-box">
