@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
+        <meta name="robots" content="noindex"></meta>
       </Head>
       <Component {...pageProps} />
     </>
