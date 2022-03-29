@@ -19,9 +19,7 @@ export default function Details() {
         <div className="container text-center">
           <div className="row align-items-center">
             <div className="col-lg-12">
-              <h1 className="it-title text-white text-primary ">
-                Details
-              </h1>
+              <h1 className="it-title text-white text-primary ">Details</h1>
             </div>
           </div>
         </div>
@@ -36,6 +34,7 @@ export default function Details() {
               <div className="it-location">
                 1396 Lynnhaven Pkwy, Virginia Beach, VA 23453
               </div>
+              <div className="it-location">Two O'Clock in the Afternoon</div>
 
               <div>
                 <a href="/rsvp" className="btn btn-secondary me-2 mb-2 mt-3">
@@ -53,6 +52,7 @@ export default function Details() {
               <div className="it-location">
                 1 Waterside Dr, Norfolk, VA 23510{" "}
               </div>
+              <div className="it-location">Four O'Clock in the Afternoon</div>
 
               <div>
                 <a href="/rsvp" className="btn btn-secondary me-2 mb-2 mt-3">
@@ -64,7 +64,7 @@ export default function Details() {
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }
