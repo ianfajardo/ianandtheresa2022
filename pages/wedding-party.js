@@ -43,7 +43,7 @@ export default function WeddingParty() {
           </div>
           <div className="col-lg-6">
             <div className="it-date-box">
-              <div className="it-date-label">Groosmen</div>
+              <div className="it-date-label">Groomsmen</div>
               <div className="it-location">Andrew Huynh</div>
               <div className="it-location">Mark Salcedo</div>
 
