@@ -15,14 +15,17 @@ export default function faqs() {
 
       <Navigation />
 
-      <div className="container">
-        <div className="animate__animated animate__fadeInRight">
-          <div className="row align-items-center text-center">
+      <div className="page-bg registry animate__animated animate__fadeInRight mb-0">
+        <div className="container text-center">
+          <div className="row align-items-center">
             <div className="col-lg-12">
-              <h1 className="it-title text-primary ">faqs</h1>
+              <h1 className="it-title text-white text-primary ">faqs</h1>
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-12">
             <div
@@ -58,16 +61,36 @@ export default function faqs() {
                 </a>{" "}
                 for any questions or concerns.
               </p>
+              <div className="it-label">Do you have a wedding registry?</div>
+              <p>
+                Yes, we are registered at{" "}
+                <a
+                  target="_blank"
+                  href="https://www.target.com/gift-registry/gift-giver?registryId=2802a9e0-ae2c-11ec-a472-b57a8cdbe910&type=WEDDING"
+                >
+                  Target
+                </a>{" "}
+                and{" "}
+                <a
+                  target="_blank"
+                  href="https://www.amazon.com/wedding/theresa-riel-ian-fajardo-virginia-beach-august-2022/registry/2ODPG89IZIM9D
+"
+                >
+                  Amazon
+                </a>
+                .
+              </p>
+
               <div className="it-label">Where can I park?</div>
               <p>A parking lot is available at the ceremony venue. </p>
               <p>
-                There are parking garages located within walking distance to the
-                reception venue. The maximum daily rate is $13. Guests can also
-                be dropped off or picked up at the roundabout at the reception
-                venue.
+                <strong>West Plume Street Garage</strong> 130 W Plume St,
+                Norfolk, VA 23510
               </p>
-              <p>West Plume Street Garage 130 W Plume St, Norfolk, VA 23510</p>
-              <p>Town Point Garage 110 W Main St, Norfolk, VA 23510</p>
+              <p>
+                <strong>Town Point Garage</strong> 110 W Main St, Norfolk, VA
+                23510
+              </p>
               <hr />
               <div className="it-date-label">covid faqs</div>
               <div className="it-label">
@@ -80,8 +103,8 @@ export default function faqs() {
               </p>
               <div className="it-label">How many guests will be attending?</div>
               <p>
-                We have invited 250+ of our closest loved ones to
-                celebrate our big day.{" "}
+                We have invited 250+ of our closest loved ones to celebrate our
+                big day.{" "}
               </p>
               <div className="it-label">
                 What safety guidelines will be in place?

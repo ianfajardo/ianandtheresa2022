@@ -75,6 +75,11 @@ h3 {
     background-size: cover;
   }
 
+  &.registry {
+    background: url("/jumbo6.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
   .container {
     position: relative;
     z-index: 4;
