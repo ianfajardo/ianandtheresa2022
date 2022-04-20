@@ -15,6 +15,28 @@ export default function Rsvp() {
 
       <Navigation />
 
+      <div className="animate__animated animate__fadeInRight">
+        <div className="container text-center">
+          <div className="row align-items-center">
+            <div className="col-lg-12">
+              <h1 className="it-title text-primary mb-4">rsvp</h1>
+              <p className="mb-5">
+                Kindly RSVP using the form below by June 30, 2022.
+                <br />
+                <em>
+                  If you have any other questions or concerns, please contact us
+                  at{" "}
+                  <a href="ianandtheresa2022@gmail.com">
+                    ianandtheresa2022@gmail.com
+                  </a>
+                  .
+                </em>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <iframe
         style={{
           display: "block",
