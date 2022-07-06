@@ -47,7 +47,7 @@ export default function faqs() {
                 </em>
               </div>
               <div className="it-label">When should I RSVP?</div>
-              <p>RSVP details are coming soon.</p>
+              <p>Kindly RSVP by June 30, 2022.</p>
               <div className="it-label">What is the dress code?</div>
               <p>Semi-formal or cocktail.</p>
               <div className="it-label">
