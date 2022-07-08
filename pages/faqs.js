@@ -110,11 +110,11 @@ export default function faqs() {
                 What safety guidelines will be in place?
               </div>
               <p>
-                We respectfully require that all guests ages 5 and older be
-                fully vaccinated and boosted, and we plan to require proof of
-                vaccination upon entrance to the reception venue. Masks will not
-                be required, but we respect those that wish to wear one. Masks
-                and hand sanitizer will be made available at both venues.
+                For the safety of everyone in attendance, we strongly encourage
+                all guests to be vaccinated. Masks are optional. Please be
+                mindful of any signs/symptoms you may be experiencing prior to
+                the event. If you are feeling sick, we completely understand if
+                you are unable to attend and encourage you to stay home. Please let us know if you have any questions and we look forward to celebrating with everyone!
               </p>
               <p>
                 <em>
