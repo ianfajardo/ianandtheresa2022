@@ -116,17 +116,6 @@ export default function faqs() {
                 the event. If you are feeling sick, we completely understand if
                 you are unable to attend and encourage you to stay home. Please let us know if you have any questions and we look forward to celebrating with everyone!
               </p>
-              <p>
-                <em>
-                  We understand that the situations above may affect your
-                  ability or choice to attend our wedding. This deeply saddens
-                  us because we love you and will miss you, but as much as we
-                  want to start our marriage with you present, we want you to
-                  stay safe more. We hope that by starting this conversation
-                  early, we can discuss what works best for all of us. Love, Ian
-                  & Theresa
-                </em>
-              </p>
             </div>
           </div>
         </div>
